@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="w2G-Cc-cCa">
-    <device id="retina4_0" orientation="landscape" appearance="light"/>
+    <device id="retina6_12" orientation="landscape" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
@@ -16,14 +16,14 @@
             <objects>
                 <viewController storyboardIdentifier="CardGameVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="al7-8S-DwY" customClass="ChaseRakeCardGameVC" customModule="DeceitFoldSpreeChaseRake" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aJs-ZY-YJ9">
-                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_bg" translatesAutoresizingMaskIntoConstraints="NO" id="ryk-UQ-4em">
-                                <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                                <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="alW-89-fO2">
-                                <rect key="frame" x="44" y="24" width="48" height="48"/>
+                                <rect key="frame" x="44" y="24" width="59" height="59"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="alW-89-fO2" secondAttribute="height" id="sp4-qd-dyG"/>
                                 </constraints>
@@ -35,13 +35,13 @@
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vg1-1t-K7a">
-                                <rect key="frame" x="125.5" y="16" width="317" height="53"/>
+                                <rect key="frame" x="231.33333333333334" y="16" width="389.33333333333326" height="65"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_game_title" translatesAutoresizingMaskIntoConstraints="NO" id="qpC-0r-xxf">
-                                        <rect key="frame" x="0.0" y="0.0" width="317" height="53"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="389.33333333333331" height="65"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Card Sequance" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xdH-N2-W7d">
-                                        <rect key="frame" x="88.5" y="9.5" width="140.5" height="28.5"/>
+                                        <rect key="frame" x="124.66666666666664" y="14.999999999999998" width="140.33333333333337" height="28.333333333333329"/>
                                         <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="20"/>
                                         <color key="textColor" name="Color 3"/>
                                         <nil key="highlightedColor"/>
@@ -59,7 +59,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R30-aE-dzv">
-                                <rect key="frame" x="90" y="246" width="388" height="50"/>
+                                <rect key="frame" x="232" y="319" width="388" height="50"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M5w-q4-FPd">
                                         <rect key="frame" x="0.0" y="0.0" width="178" height="50"/>
@@ -68,7 +68,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="178" height="50"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YRH-qD-cHo">
-                                                <rect key="frame" x="114.5" y="15.5" width="24" height="24"/>
+                                                <rect key="frame" x="114.33333333333331" y="15.666666666666686" width="24" height="24"/>
                                                 <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="18"/>
                                                 <color key="textColor" name="Color 1"/>
                                                 <nil key="highlightedColor"/>
@@ -92,7 +92,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="178" height="50"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mw0-Us-YmN">
-                                                <rect key="frame" x="39.5" y="15.5" width="24" height="24"/>
+                                                <rect key="frame" x="39.666666666666686" y="15.666666666666686" width="24" height="24"/>
                                                 <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="18"/>
                                                 <color key="textColor" name="Color 1"/>
                                                 <nil key="highlightedColor"/>
@@ -122,10 +122,10 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hmn-eU-Tpa">
-                                <rect key="frame" x="34" y="85" width="500" height="145"/>
+                                <rect key="frame" x="176" y="97" width="500" height="206"/>
                                 <subviews>
                                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="yg9-eL-TAy">
-                                        <rect key="frame" x="0.0" y="0.0" width="500" height="145"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="500" height="206"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="3" minimumInteritemSpacing="3" id="eP2-Qu-d7x">
                                             <size key="itemSize" width="128" height="128"/>
@@ -208,14 +208,14 @@
             <objects>
                 <viewController useStoryboardIdentifierAsRestorationIdentifier="YES" id="m8n-9V-GOU" customClass="ChaseRakeSettingVC" customModule="DeceitFoldSpreeChaseRake" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UXY-KT-Gq5">
-                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_bg" translatesAutoresizingMaskIntoConstraints="NO" id="475-sD-muA">
-                                <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                                <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SAC-z9-2rN">
-                                <rect key="frame" x="36" y="24" width="36" height="36"/>
+                                <rect key="frame" x="36" y="24" width="60" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="SAC-z9-2rN" secondAttribute="height" id="pVW-2y-DCH"/>
                                 </constraints>
@@ -226,13 +226,13 @@
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cSI-Ki-xek">
-                                <rect key="frame" x="96" y="12" width="392" height="45"/>
+                                <rect key="frame" x="120" y="12" width="652" height="75"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_title" translatesAutoresizingMaskIntoConstraints="NO" id="qIq-eb-y2C">
-                                        <rect key="frame" x="0.0" y="0.0" width="392" height="45"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="652" height="75"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Setting" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hxp-g8-vTA">
-                                        <rect key="frame" x="162" y="4" width="68.5" height="28.5"/>
+                                        <rect key="frame" x="291.66666666666669" y="15.999999999999998" width="68.666666666666686" height="28.333333333333329"/>
                                         <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="20"/>
                                         <color key="textColor" name="Color 1"/>
                                         <nil key="highlightedColor"/>
@@ -250,7 +250,7 @@
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x1J-tM-HaF">
-                                <rect key="frame" x="568" y="81" width="0.0" height="5"/>
+                                <rect key="frame" x="852" y="111" width="0.0" height="5"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="5" id="o6Q-ke-tjv"/>
                                 </constraints>
@@ -259,19 +259,19 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="loY-4Y-OHy">
-                                <rect key="frame" x="99.5" y="81" width="369" height="215"/>
+                                <rect key="frame" x="204.66666666666666" y="111" width="442.66666666666674" height="258"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_settingssss" translatesAutoresizingMaskIntoConstraints="NO" id="rVg-3u-wYR">
-                                        <rect key="frame" x="0.0" y="0.0" width="369" height="215"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="442.66666666666669" height="258"/>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="ZsR-Ui-mb5">
-                                        <rect key="frame" x="0.0" y="0.0" width="369" height="215"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="442.66666666666669" height="258"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hpj-8s-EPq">
-                                                <rect key="frame" x="0.0" y="0.0" width="123" height="215"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="147.66666666666666" height="258"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ar5-Sr-Bsi">
-                                                        <rect key="frame" x="0.0" y="0.0" width="123" height="136.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="147.66666666666666" height="164"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="ar5-Sr-Bsi" secondAttribute="height" multiplier="0.9" id="w1b-J0-H3h"/>
                                                         </constraints>
@@ -289,10 +289,10 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MdY-YS-EA0">
-                                                <rect key="frame" x="123" y="0.0" width="123" height="215"/>
+                                                <rect key="frame" x="147.66666666666663" y="0.0" width="147.33333333333337" height="258"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ysv-hJ-nEy">
-                                                        <rect key="frame" x="0.0" y="78.5" width="123" height="136.5"/>
+                                                        <rect key="frame" x="0.0" y="94" width="147.33333333333334" height="164"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="Ysv-hJ-nEy" secondAttribute="height" multiplier="0.9" id="gqs-ro-irc"/>
                                                         </constraints>
@@ -310,10 +310,10 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Xf-hE-w3p">
-                                                <rect key="frame" x="246" y="0.0" width="123" height="215"/>
+                                                <rect key="frame" x="295" y="0.0" width="147.66666666666663" height="258"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uhi-33-vez">
-                                                        <rect key="frame" x="0.0" y="0.0" width="123" height="136.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="147.66666666666666" height="164"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="uhi-33-vez" secondAttribute="height" multiplier="0.9" id="M99-az-Zyu"/>
                                                         </constraints>
@@ -378,20 +378,20 @@
             <objects>
                 <viewController storyboardIdentifier="HomeVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Rgp-Yj-PDE" customClass="ChaseRakeHomeVC" customModule="DeceitFoldSpreeChaseRake" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qS4-nD-dLb">
-                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_bg" translatesAutoresizingMaskIntoConstraints="NO" id="VYD-93-XTZ">
-                                <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                                <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZNt-Bf-H6I">
-                                <rect key="frame" x="98" y="24" width="372" height="62"/>
+                                <rect key="frame" x="240" y="24" width="372" height="62"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_game_title" translatesAutoresizingMaskIntoConstraints="NO" id="EeW-Il-tOH">
                                         <rect key="frame" x="0.0" y="0.0" width="372" height="62"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DeceitFoldSpree ChaseRake" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a3s-F6-VYA">
-                                        <rect key="frame" x="57" y="13.5" width="258.5" height="28.5"/>
+                                        <rect key="frame" x="56.666666666666686" y="13.666666666666663" width="258.66666666666669" height="28.333333333333329"/>
                                         <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="20"/>
                                         <color key="textColor" name="Color 3"/>
                                         <nil key="highlightedColor"/>
@@ -410,19 +410,19 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Wa-si-fKX">
-                                <rect key="frame" x="121" y="110" width="326" height="186"/>
+                                <rect key="frame" x="199" y="110" width="454" height="259"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_home" translatesAutoresizingMaskIntoConstraints="NO" id="bZg-wu-Hs4">
-                                        <rect key="frame" x="0.0" y="0.0" width="326" height="186"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="454" height="259"/>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="-20" translatesAutoresizingMaskIntoConstraints="NO" id="QHk-qR-hjG">
-                                        <rect key="frame" x="0.0" y="0.0" width="326" height="186"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="454" height="259"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U2Y-KS-zIA">
-                                                <rect key="frame" x="0.0" y="0.0" width="122" height="186"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="164.66666666666666" height="259"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ues-Du-RVZ">
-                                                        <rect key="frame" x="0.0" y="0.0" width="122" height="138"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="164.66666666666666" height="192.33333333333334"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                         <connections>
                                                             <segue destination="al7-8S-DwY" kind="show" id="FnJ-AH-tgl"/>
@@ -438,10 +438,10 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pPw-pC-yMK">
-                                                <rect key="frame" x="102" y="0.0" width="122" height="186"/>
+                                                <rect key="frame" x="144.66666666666669" y="0.0" width="164.66666666666669" height="259"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9CN-NS-Grc">
-                                                        <rect key="frame" x="0.0" y="24" width="122" height="138"/>
+                                                        <rect key="frame" x="0.0" y="33.333333333333329" width="164.66666666666666" height="192.33333333333337"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                         <connections>
                                                             <segue destination="ETB-T0-CaT" kind="show" id="m10-mG-wvK"/>
@@ -457,10 +457,10 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cxZ-PT-XQD">
-                                                <rect key="frame" x="204" y="0.0" width="122" height="186"/>
+                                                <rect key="frame" x="289.33333333333331" y="0.0" width="164.66666666666669" height="259"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a6b-AD-Ik1">
-                                                        <rect key="frame" x="0.0" y="48" width="122" height="138"/>
+                                                        <rect key="frame" x="0.0" y="66.666666666666643" width="164.66666666666666" height="192.33333333333337"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                         <connections>
                                                             <segue destination="m8n-9V-GOU" kind="show" id="HJH-6F-WyM"/>
@@ -517,14 +517,14 @@
             <objects>
                 <viewController useStoryboardIdentifierAsRestorationIdentifier="YES" id="Mca-Zn-J0k" customClass="ChaseRakeAboutVC" customModule="DeceitFoldSpreeChaseRake" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="p7m-4f-CRu">
-                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_bg" translatesAutoresizingMaskIntoConstraints="NO" id="4h3-By-5UX">
-                                <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                                <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cfh-zw-r7C">
-                                <rect key="frame" x="36" y="24" width="36" height="36"/>
+                                <rect key="frame" x="36" y="24" width="60" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="cfh-zw-r7C" secondAttribute="height" id="pFW-Ic-M4U"/>
                                 </constraints>
@@ -535,13 +535,13 @@
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zLo-dC-FPQ">
-                                <rect key="frame" x="96" y="12" width="392" height="45"/>
+                                <rect key="frame" x="120" y="12" width="652" height="75"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_title" translatesAutoresizingMaskIntoConstraints="NO" id="oAi-aH-t7Q">
-                                        <rect key="frame" x="0.0" y="0.0" width="392" height="45"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="652" height="75"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About Us" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iu7-nU-8kP">
-                                        <rect key="frame" x="153" y="4" width="86" height="28.5"/>
+                                        <rect key="frame" x="283.33333333333331" y="15.999999999999998" width="85.666666666666686" height="28.333333333333329"/>
                                         <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="20"/>
                                         <color key="textColor" name="Color 1"/>
                                         <nil key="highlightedColor"/>
@@ -559,7 +559,7 @@
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A71-ze-veK">
-                                <rect key="frame" x="568" y="81" width="0.0" height="5"/>
+                                <rect key="frame" x="852" y="111" width="0.0" height="5"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="5" id="vxj-8O-k3t"/>
                                 </constraints>
@@ -568,19 +568,19 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HRL-Wr-HsT">
-                                <rect key="frame" x="81" y="81" width="406" height="215"/>
+                                <rect key="frame" x="182.66666666666666" y="111" width="486.66666666666674" height="258"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_txtview" translatesAutoresizingMaskIntoConstraints="NO" id="jEE-nr-3Ne">
-                                        <rect key="frame" x="0.0" y="0.0" width="406" height="215"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="486.66666666666669" height="258"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Read Carefully" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="El1-6l-Nns">
-                                        <rect key="frame" x="132" y="0.0" width="142" height="49.5"/>
+                                        <rect key="frame" x="172.33333333333334" y="0.0" width="142.00000000000003" height="59.333333333333336"/>
                                         <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="20"/>
                                         <color key="textColor" name="Color 1"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Y4n-To-y5Q">
-                                        <rect key="frame" x="41" y="50" width="324" height="137"/>
+                                        <rect key="frame" x="48.666666666666686" y="59.666666666666643" width="389.33333333333331" height="164.33333333333337"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <string key="text">Welcome to DeceitFoldSpree ChaseRake, a thrilling and dynamic card-based gaming experience featuring two exciting games: Card Sequence and Card Cascade. Designed for players who enjoy strategy, quick thinking, and engaging gameplay, our app offers a perfect blend of skill and fun.
 
@@ -642,14 +642,14 @@ Both games feature smooth animations, intuitive controls, and immersive visuals,
             <objects>
                 <viewController useStoryboardIdentifierAsRestorationIdentifier="YES" id="v4q-Nd-PKv" customClass="ChaseRakeFeedbackVC" customModule="DeceitFoldSpreeChaseRake" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZTC-jc-ezc">
-                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_bg" translatesAutoresizingMaskIntoConstraints="NO" id="Hov-du-6bc">
-                                <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                                <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HWJ-Tq-JLR">
-                                <rect key="frame" x="36" y="24" width="36" height="36"/>
+                                <rect key="frame" x="36" y="24" width="60" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="HWJ-Tq-JLR" secondAttribute="height" id="Ynl-Km-GwN"/>
                                 </constraints>
@@ -660,13 +660,13 @@ Both games feature smooth animations, intuitive controls, and immersive visuals,
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pZX-xI-oaO">
-                                <rect key="frame" x="96" y="12" width="392" height="45"/>
+                                <rect key="frame" x="120" y="12" width="652" height="75"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_title" translatesAutoresizingMaskIntoConstraints="NO" id="trL-KI-dZ4">
-                                        <rect key="frame" x="0.0" y="0.0" width="392" height="45"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="652" height="75"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Feedback" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0gG-9Y-H3P">
-                                        <rect key="frame" x="152.5" y="4" width="87.5" height="28.5"/>
+                                        <rect key="frame" x="282.33333333333331" y="15.999999999999998" width="87.333333333333314" height="28.333333333333329"/>
                                         <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="20"/>
                                         <color key="textColor" name="Color 1"/>
                                         <nil key="highlightedColor"/>
@@ -684,7 +684,7 @@ Both games feature smooth animations, intuitive controls, and immersive visuals,
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dzY-My-z7G">
-                                <rect key="frame" x="568" y="81" width="0.0" height="5"/>
+                                <rect key="frame" x="852" y="111" width="0.0" height="5"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="5" id="41z-3o-fvR"/>
                                 </constraints>
@@ -693,19 +693,19 @@ Both games feature smooth animations, intuitive controls, and immersive visuals,
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nYs-9w-Cmo">
-                                <rect key="frame" x="81" y="81" width="406" height="215"/>
+                                <rect key="frame" x="182.66666666666666" y="111" width="486.66666666666674" height="258"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_txtview" translatesAutoresizingMaskIntoConstraints="NO" id="QTd-qm-Soa">
-                                        <rect key="frame" x="0.0" y="0.0" width="406" height="215"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="486.66666666666669" height="258"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rate Your Experience" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QjU-Oc-1JU">
-                                        <rect key="frame" x="102" y="0.0" width="202" height="49.5"/>
+                                        <rect key="frame" x="142.33333333333334" y="0.0" width="202.00000000000003" height="59.333333333333336"/>
                                         <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="20"/>
                                         <color key="textColor" name="Color 1"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Me-CR-HGJ">
-                                        <rect key="frame" x="56" y="135" width="294" height="44"/>
+                                        <rect key="frame" x="56" y="178" width="374.66666666666669" height="44"/>
                                         <color key="backgroundColor" name="Color 3"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="44" id="KzA-BE-yPw"/>
@@ -726,10 +726,10 @@ Both games feature smooth animations, intuitive controls, and immersive visuals,
                                         </connections>
                                     </button>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="t6Y-Sj-fhI">
-                                        <rect key="frame" x="47" y="79.5" width="312" height="56"/>
+                                        <rect key="frame" x="56" y="94.666666666666657" width="374.66666666666669" height="68.666666666666657"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fh2-sf-LYY">
-                                                <rect key="frame" x="0.0" y="0.0" width="56" height="56"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="68.333333333333329" height="68.666666666666671"/>
                                                 <color key="backgroundColor" red="0.48699998859999999" green="0.097000002860000004" blue="0.09499999881" alpha="0.70006909009999996" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="fh2-sf-LYY" secondAttribute="height" id="TpM-OM-KMd"/>
@@ -743,7 +743,7 @@ Both games feature smooth animations, intuitive controls, and immersive visuals,
                                                 </userDefinedRuntimeAttributes>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J5R-QD-2Ma">
-                                                <rect key="frame" x="64" y="0.0" width="56" height="56"/>
+                                                <rect key="frame" x="76.333333333333343" y="0.0" width="68.666666666666657" height="68.666666666666671"/>
                                                 <color key="backgroundColor" red="0.48699998859999999" green="0.097000002860000004" blue="0.09499999881" alpha="0.70006909009999996" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <color key="tintColor" name="Color 1"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -754,7 +754,7 @@ Both games feature smooth animations, intuitive controls, and immersive visuals,
                                                 </userDefinedRuntimeAttributes>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wEA-JG-JUZ">
-                                                <rect key="frame" x="128" y="0.0" width="56" height="56"/>
+                                                <rect key="frame" x="153.00000000000003" y="0.0" width="68.666666666666657" height="68.666666666666671"/>
                                                 <color key="backgroundColor" red="0.48699998859999999" green="0.097000002860000004" blue="0.09499999881" alpha="0.70006909009999996" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <color key="tintColor" name="Color 1"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -765,7 +765,7 @@ Both games feature smooth animations, intuitive controls, and immersive visuals,
                                                 </userDefinedRuntimeAttributes>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JzR-pd-5wV">
-                                                <rect key="frame" x="192" y="0.0" width="56" height="56"/>
+                                                <rect key="frame" x="229.66666666666666" y="0.0" width="68.666666666666657" height="68.666666666666671"/>
                                                 <color key="backgroundColor" red="0.48699998859999999" green="0.097000002860000004" blue="0.09499999881" alpha="0.70006909009999996" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <color key="tintColor" name="Color 1"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -776,7 +776,7 @@ Both games feature smooth animations, intuitive controls, and immersive visuals,
                                                 </userDefinedRuntimeAttributes>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P4I-Xs-Ugh">
-                                                <rect key="frame" x="256" y="0.0" width="56" height="56"/>
+                                                <rect key="frame" x="306.33333333333337" y="0.0" width="68.333333333333314" height="68.666666666666671"/>
                                                 <color key="backgroundColor" red="0.48699998859999999" green="0.097000002860000004" blue="0.09499999881" alpha="0.70006909009999996" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <color key="tintColor" name="Color 1"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -862,18 +862,24 @@ Both games feature smooth animations, intuitive controls, and immersive visuals,
         <!--Chase Rake PrivacyVC-->
         <scene sceneID="RnG-kw-DRo">
             <objects>
-                <viewController useStoryboardIdentifierAsRestorationIdentifier="YES" id="wsK-98-nnV" customClass="ChaseRakePrivacyVC" customModule="DeceitFoldSpreeChaseRake" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ChaseRakePrivacyVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="wsK-98-nnV" customClass="ChaseRakePrivacyVC" customModule="DeceitFoldSpreeChaseRake" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="epM-gG-XFf">
-                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_bg" translatesAutoresizingMaskIntoConstraints="NO" id="qbZ-pM-uz4">
-                                <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
-                            </imageView>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mhZ-N5-cK3">
+                                <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="COx-hb-j5W">
-                                <rect key="frame" x="36" y="24" width="36" height="36"/>
+                                <rect key="frame" x="788" y="34" width="50" height="50"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="COx-hb-j5W" secondAttribute="height" id="A0q-Ur-5fz"/>
+                                    <constraint firstAttribute="width" constant="50" id="RoQ-Yy-Auk"/>
+                                    <constraint firstAttribute="height" constant="50" id="k3s-91-s7T"/>
                                 </constraints>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" image="ic_back"/>
@@ -881,234 +887,29 @@ Both games feature smooth animations, intuitive controls, and immersive visuals,
                                     <action selector="btnBack:" destination="wsK-98-nnV" eventType="touchUpInside" id="VWd-xw-Nhh"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="15X-hz-dKM">
-                                <rect key="frame" x="96" y="12" width="392" height="45"/>
-                                <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_title" translatesAutoresizingMaskIntoConstraints="NO" id="Bcl-h3-xCh">
-                                        <rect key="frame" x="0.0" y="0.0" width="392" height="45"/>
-                                    </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Privacy Policy" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VIV-fn-LuN">
-                                        <rect key="frame" x="131" y="4" width="130" height="28.5"/>
-                                        <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="20"/>
-                                        <color key="textColor" name="Color 1"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="Bcl-h3-xCh" secondAttribute="bottom" id="1j9-dR-Gle"/>
-                                    <constraint firstItem="VIV-fn-LuN" firstAttribute="centerX" secondItem="15X-hz-dKM" secondAttribute="centerX" id="DOx-bj-Ueh"/>
-                                    <constraint firstItem="Bcl-h3-xCh" firstAttribute="leading" secondItem="15X-hz-dKM" secondAttribute="leading" id="Ds5-sV-35l"/>
-                                    <constraint firstItem="Bcl-h3-xCh" firstAttribute="top" secondItem="15X-hz-dKM" secondAttribute="top" id="PH9-jK-ab4"/>
-                                    <constraint firstAttribute="trailing" secondItem="Bcl-h3-xCh" secondAttribute="trailing" id="Vty-yw-vjB"/>
-                                    <constraint firstItem="VIV-fn-LuN" firstAttribute="centerY" secondItem="15X-hz-dKM" secondAttribute="centerY" multiplier="0.8" id="djw-6P-UM2"/>
-                                    <constraint firstAttribute="width" secondItem="15X-hz-dKM" secondAttribute="height" multiplier="8.67698" id="gxc-Dr-h8X"/>
-                                </constraints>
-                            </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eA9-3j-QSs">
-                                <rect key="frame" x="568" y="81" width="0.0" height="5"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="5" id="0jY-N6-urM"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0lJ-bx-n8E">
-                                <rect key="frame" x="81" y="81" width="406" height="215"/>
-                                <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_txtview" translatesAutoresizingMaskIntoConstraints="NO" id="q6g-m8-U4T">
-                                        <rect key="frame" x="0.0" y="0.0" width="406" height="215"/>
-                                    </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Read Carefully" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PKN-Ta-aQU">
-                                        <rect key="frame" x="132" y="0.0" width="142" height="49.5"/>
-                                        <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="20"/>
-                                        <color key="textColor" name="Color 1"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="bce-Jd-raU">
-                                        <rect key="frame" x="41" y="50" width="324" height="137"/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <string key="text">Last updated: February 25, 2025
-
-This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.
-
-We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy. This Privacy Policy has been created with the help of the Free Privacy Policy Generator.
-
-Interpretation and Definitions
-Interpretation
-The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.
-
-Definitions
-For the purposes of this Privacy Policy:
-
-Account means a unique account created for You to access our Service or parts of our Service.
-
-Affiliate means an entity that controls, is controlled by or is under common control with a party, where "control" means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.
-
-Application refers to DeceitFoldSpree ChaseRake, the software program provided by the Company.
-
-Company (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) referDeceitFoldSpree ChaseRake.
-
-Country refers to: Gujarat, India
-
-Device means any device that can access the Service such as a computer, a cellphone or a digital tablet.
-
-Personal Data is any information that relates to an identified or identifiable individual.
-
-Service refers to the Application.
-
-Service Provider means any natural or legal person who processes the data on behalf of the Company. It refers to third-party companies or individuals employed by the Company to facilitate the Service, to provide the Service on behalf of the Company, to perform services related to the Service or to assist the Company in analyzing how the Service is used.
-
-Usage Data refers to data collected automatically, either generated by the use of the Service or from the Service infrastructure itself (for example, the duration of a page visit).
-
-You means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.
-
-Collecting and Using Your Personal Data
-Types of Data Collected
-Personal Data
-While using Our Service, We may ask You to provide Us with certain personally identifiable information that can be used to contact or identify You. Personally identifiable information may include, but is not limited to:
-
-Usage Data
-Usage Data
-Usage Data is collected automatically when using the Service.
-
-Usage Data may include information such as Your Device's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that You visit, the time and date of Your visit, the time spent on those pages, unique device identifiers and other diagnostic data.
-
-When You access the Service by or through a mobile device, We may collect certain information automatically, including, but not limited to, the type of mobile device You use, Your mobile device unique ID, the IP address of Your mobile device, Your mobile operating system, the type of mobile Internet browser You use, unique device identifiers and other diagnostic data.
-
-We may also collect information that Your browser sends whenever You visit our Service or when You access the Service by or through a mobile device.
-
-Use of Your Personal Data
-The Company may use Personal Data for the following purposes:
-
-To provide and maintain our Service, including to monitor the usage of our Service.
-
-To manage Your Account: to manage Your registration as a user of the Service. The Personal Data You provide can give You access to different functionalities of the Service that are available to You as a registered user.
-
-For the performance of a contract: the development, compliance and undertaking of the purchase contract for the products, items or services You have purchased or of any other contract with Us through the Service.
-
-To contact You: To contact You by email, telephone calls, SMS, or other equivalent forms of electronic communication, such as a mobile application's push notifications regarding updates or informative communications related to the functionalities, products or contracted services, including the security updates, when necessary or reasonable for their implementation.
-
-To provide You with news, special offers and general information about other goods, services and events which we offer that are similar to those that you have already purchased or enquired about unless You have opted not to receive such information.
-
-To manage Your requests: To attend and manage Your requests to Us.
-
-For business transfers: We may use Your information to evaluate or conduct a merger, divestiture, restructuring, reorganization, dissolution, or other sale or transfer of some or all of Our assets, whether as a going concern or as part of bankruptcy, liquidation, or similar proceeding, in which Personal Data held by Us about our Service users is among the assets transferred.
-
-For other purposes: We may use Your information for other purposes, such as data analysis, identifying usage trends, determining the effectiveness of our promotional campaigns and to evaluate and improve our Service, products, services, marketing and your experience.
-
-We may share Your personal information in the following situations:
-
-With Service Providers: We may share Your personal information with Service Providers to monitor and analyze the use of our Service, to contact You.
-For business transfers: We may share or transfer Your personal information in connection with, or during negotiations of, any merger, sale of Company assets, financing, or acquisition of all or a portion of Our business to another company.
-With Affiliates: We may share Your information with Our affiliates, in which case we will require those affiliates to honor this Privacy Policy. Affiliates include Our parent company and any other subsidiaries, joint venture partners or other companies that We control or that are under common control with Us.
-With business partners: We may share Your information with Our business partners to offer You certain products, services or promotions.
-With other users: when You share personal information or otherwise interact in the public areas with other users, such information may be viewed by all users and may be publicly distributed outside.
-With Your consent: We may disclose Your personal information for any other purpose with Your consent.
-Retention of Your Personal Data
-The Company will retain Your Personal Data only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use Your Personal Data to the extent necessary to comply with our legal obligations (for example, if we are required to retain your data to comply with applicable laws), resolve disputes, and enforce our legal agreements and policies.
-
-The Company will also retain Usage Data for internal analysis purposes. Usage Data is generally retained for a shorter period of time, except when this data is used to strengthen the security or to improve the functionality of Our Service, or We are legally obligated to retain this data for longer time periods.
-
-Transfer of Your Personal Data
-Your information, including Personal Data, is processed at the Company's operating offices and in any other places where the parties involved in the processing are located. It means that this information may be transferred to — and maintained on — computers located outside of Your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from Your jurisdiction.
-
-Your consent to this Privacy Policy followed by Your submission of such information represents Your agreement to that transfer.
-
-The Company will take all steps reasonably necessary to ensure that Your data is treated securely and in accordance with this Privacy Policy and no transfer of Your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of Your data and other personal information.
-
-Delete Your Personal Data
-You have the right to delete or request that We assist in deleting the Personal Data that We have collected about You.
-
-Our Service may give You the ability to delete certain information about You from within the Service.
-
-You may update, amend, or delete Your information at any time by signing in to Your Account, if you have one, and visiting the account settings section that allows you to manage Your personal information. You may also contact Us to request access to, correct, or delete any personal information that You have provided to Us.
-
-Please note, however, that We may need to retain certain information when we have a legal obligation or lawful basis to do so.
-
-Disclosure of Your Personal Data
-Business Transactions
-If the Company is involved in a merger, acquisition or asset sale, Your Personal Data may be transferred. We will provide notice before Your Personal Data is transferred and becomes subject to a different Privacy Policy.
-
-Law enforcement
-Under certain circumstances, the Company may be required to disclose Your Personal Data if required to do so by law or in response to valid requests by public authorities (e.g. a court or a government agency).
-
-Other legal requirements
-The Company may disclose Your Personal Data in the good faith belief that such action is necessary to:
-
-Comply with a legal obligation
-Protect and defend the rights or property of the Company
-Prevent or investigate possible wrongdoing in connection with the Service
-Protect the personal safety of Users of the Service or the public
-Protect against legal liability
-Security of Your Personal Data
-The security of Your Personal Data is important to Us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While We strive to use commercially acceptable means to protect Your Personal Data, We cannot guarantee its absolute security.
-
-Children's Privacy
-Our Service does not address anyone under the age of 13. We do not knowingly collect personally identifiable information from anyone under the age of 13. If You are a parent or guardian and You are aware that Your child has provided Us with Personal Data, please contact Us. If We become aware that We have collected Personal Data from anyone under the age of 13 without verification of parental consent, We take steps to remove that information from Our servers.
-
-If We need to rely on consent as a legal basis for processing Your information and Your country requires consent from a parent, We may require Your parent's consent before We collect and use that information.
-
-Links to Other Websites
-Our Service may contain links to other websites that are not operated by Us. If You click on a third party link, You will be directed to that third party's site. We strongly advise You to review the Privacy Policy of every site You visit.
-
-We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.
-
-Changes to this Privacy Policy
-We may update Our Privacy Policy from time to time. We will notify You of any changes by posting the new Privacy Policy on this page.
-
-We will let You know via email and/or a prominent notice on Our Service, prior to the change becoming effective and update the "Last updated" date at the top of this Privacy Policy.
-
-You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.
-
-Contact Us
-If you have any questions about this Privacy Policy, You can contact us:
-
-By email: help@deceitfoldspreechaserake.com</string>
-                                        <color key="textColor" name="Color 2"/>
-                                        <fontDescription key="fontDescription" name="STIXTwoText_SemiBold" family="STIX Two Text" pointSize="18"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                </subviews>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstItem="bce-Jd-raU" firstAttribute="centerX" secondItem="0lJ-bx-n8E" secondAttribute="centerX" id="6Qq-6o-EUi"/>
-                                    <constraint firstAttribute="bottom" secondItem="q6g-m8-U4T" secondAttribute="bottom" id="Q4R-aH-kt9"/>
-                                    <constraint firstAttribute="width" secondItem="0lJ-bx-n8E" secondAttribute="height" multiplier="1.88789" id="Skj-62-ubn"/>
-                                    <constraint firstItem="bce-Jd-raU" firstAttribute="centerY" secondItem="0lJ-bx-n8E" secondAttribute="centerY" multiplier="1.1" id="WIW-eL-nSL"/>
-                                    <constraint firstItem="bce-Jd-raU" firstAttribute="height" secondItem="q6g-m8-U4T" secondAttribute="height" multiplier="0.637358" id="Zix-Vc-BFn"/>
-                                    <constraint firstItem="PKN-Ta-aQU" firstAttribute="centerX" secondItem="q6g-m8-U4T" secondAttribute="centerX" id="b6l-Jo-YaF"/>
-                                    <constraint firstItem="bce-Jd-raU" firstAttribute="width" secondItem="q6g-m8-U4T" secondAttribute="width" multiplier="0.8" id="d2D-vX-TtE"/>
-                                    <constraint firstAttribute="trailing" secondItem="q6g-m8-U4T" secondAttribute="trailing" id="jBi-Pq-Y2K"/>
-                                    <constraint firstItem="PKN-Ta-aQU" firstAttribute="height" secondItem="q6g-m8-U4T" secondAttribute="height" multiplier="0.23" id="kLg-G2-uog"/>
-                                    <constraint firstItem="q6g-m8-U4T" firstAttribute="top" secondItem="0lJ-bx-n8E" secondAttribute="top" id="wCr-9z-eji"/>
-                                    <constraint firstItem="PKN-Ta-aQU" firstAttribute="top" secondItem="0lJ-bx-n8E" secondAttribute="top" id="yPO-DI-T4M"/>
-                                    <constraint firstItem="q6g-m8-U4T" firstAttribute="leading" secondItem="0lJ-bx-n8E" secondAttribute="leading" id="yoW-mi-zHc"/>
-                                </constraints>
-                            </view>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="zhM-fQ-Hm5">
+                                <rect key="frame" x="416" y="186.66666666666666" width="20" height="20"/>
+                            </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="aQR-Z8-ONU"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="aQR-Z8-ONU" firstAttribute="trailing" secondItem="eA9-3j-QSs" secondAttribute="trailing" id="358-HH-JEu"/>
-                            <constraint firstItem="qbZ-pM-uz4" firstAttribute="leading" secondItem="epM-gG-XFf" secondAttribute="leading" id="CPv-T8-IAH"/>
-                            <constraint firstItem="0lJ-bx-n8E" firstAttribute="centerX" secondItem="qbZ-pM-uz4" secondAttribute="centerX" id="H3W-Qp-HFv"/>
-                            <constraint firstItem="COx-hb-j5W" firstAttribute="height" secondItem="Bcl-h3-xCh" secondAttribute="height" multiplier="0.8" id="HAc-KT-12N"/>
-                            <constraint firstAttribute="bottom" secondItem="qbZ-pM-uz4" secondAttribute="bottom" id="HNo-m9-QlD"/>
-                            <constraint firstItem="aQR-Z8-ONU" firstAttribute="trailing" secondItem="15X-hz-dKM" secondAttribute="trailing" constant="80" id="Idb-YV-oWE"/>
-                            <constraint firstAttribute="trailing" secondItem="qbZ-pM-uz4" secondAttribute="trailing" id="Olx-W3-A8E"/>
-                            <constraint firstItem="0lJ-bx-n8E" firstAttribute="top" secondItem="15X-hz-dKM" secondAttribute="bottom" constant="24" id="P3k-dY-Wax"/>
-                            <constraint firstItem="COx-hb-j5W" firstAttribute="leading" secondItem="epM-gG-XFf" secondAttribute="leading" constant="36" id="TV9-20-b7r"/>
-                            <constraint firstAttribute="bottom" secondItem="0lJ-bx-n8E" secondAttribute="bottom" constant="24" id="b9g-8a-XhB"/>
-                            <constraint firstItem="15X-hz-dKM" firstAttribute="top" secondItem="aQR-Z8-ONU" secondAttribute="top" constant="12" id="gMT-aF-8pE"/>
-                            <constraint firstItem="qbZ-pM-uz4" firstAttribute="top" secondItem="epM-gG-XFf" secondAttribute="top" id="kId-oq-s7L"/>
-                            <constraint firstItem="eA9-3j-QSs" firstAttribute="top" secondItem="15X-hz-dKM" secondAttribute="bottom" constant="24" id="lEQ-nQ-IAH"/>
-                            <constraint firstItem="COx-hb-j5W" firstAttribute="top" secondItem="aQR-Z8-ONU" secondAttribute="top" constant="24" id="xSS-Gi-1zF"/>
-                            <constraint firstItem="15X-hz-dKM" firstAttribute="leading" secondItem="COx-hb-j5W" secondAttribute="trailing" constant="24" id="z6O-af-j8A"/>
+                            <constraint firstItem="zhM-fQ-Hm5" firstAttribute="centerY" secondItem="epM-gG-XFf" secondAttribute="centerY" id="Cxq-or-GzJ"/>
+                            <constraint firstItem="COx-hb-j5W" firstAttribute="top" secondItem="aQR-Z8-ONU" secondAttribute="top" constant="34" id="GQg-Zc-ML3"/>
+                            <constraint firstItem="zhM-fQ-Hm5" firstAttribute="centerX" secondItem="epM-gG-XFf" secondAttribute="centerX" id="Jaj-yG-p76"/>
+                            <constraint firstItem="aQR-Z8-ONU" firstAttribute="bottom" secondItem="mhZ-N5-cK3" secondAttribute="bottom" id="XJW-vm-BFd"/>
+                            <constraint firstItem="mhZ-N5-cK3" firstAttribute="leading" secondItem="epM-gG-XFf" secondAttribute="leading" id="g7q-bA-ZiM"/>
+                            <constraint firstAttribute="trailing" secondItem="mhZ-N5-cK3" secondAttribute="trailing" id="hbc-aI-9jl"/>
+                            <constraint firstItem="mhZ-N5-cK3" firstAttribute="top" secondItem="epM-gG-XFf" secondAttribute="top" id="n3L-W2-VjH"/>
+                            <constraint firstItem="aQR-Z8-ONU" firstAttribute="trailing" secondItem="COx-hb-j5W" secondAttribute="trailing" constant="14" id="sp3-PR-ue6"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="YAN-E1-qJn"/>
+                    <connections>
+                        <outlet property="backBtn" destination="COx-hb-j5W" id="Ozn-oA-X8Y"/>
+                        <outlet property="indicatorView" destination="zhM-fQ-Hm5" id="eQY-Ca-64q"/>
+                        <outlet property="webView" destination="mhZ-N5-cK3" id="jr9-td-Fjb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mgr-Vl-juU" sceneMemberID="firstResponder"/>
             </objects>
@@ -1119,14 +920,14 @@ By email: help@deceitfoldspreechaserake.com</string>
             <objects>
                 <viewController id="RpZ-Jw-Fek" customClass="ChaseRakeHowToPlayVC" customModule="DeceitFoldSpreeChaseRake" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="liI-N2-CbE">
-                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_bg" translatesAutoresizingMaskIntoConstraints="NO" id="cuc-b6-Hcu">
-                                <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                                <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q7E-Gh-3aW">
-                                <rect key="frame" x="36" y="24" width="36" height="36"/>
+                                <rect key="frame" x="36" y="24" width="60" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="q7E-Gh-3aW" secondAttribute="height" id="k5E-6J-zEw"/>
                                 </constraints>
@@ -1137,13 +938,13 @@ By email: help@deceitfoldspreechaserake.com</string>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dzl-Uc-GAX">
-                                <rect key="frame" x="96" y="12" width="392" height="45"/>
+                                <rect key="frame" x="120" y="12" width="652" height="75"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_title" translatesAutoresizingMaskIntoConstraints="NO" id="o2i-0M-NXb">
-                                        <rect key="frame" x="0.0" y="0.0" width="392" height="45"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="652" height="75"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How to Play" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KkU-Hn-ncG">
-                                        <rect key="frame" x="139.5" y="4" width="113.5" height="28.5"/>
+                                        <rect key="frame" x="269.33333333333331" y="15.999999999999998" width="113.66666666666669" height="28.333333333333329"/>
                                         <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="20"/>
                                         <color key="textColor" name="Color 1"/>
                                         <nil key="highlightedColor"/>
@@ -1161,7 +962,7 @@ By email: help@deceitfoldspreechaserake.com</string>
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rmh-a4-ZHV">
-                                <rect key="frame" x="568" y="81" width="0.0" height="5"/>
+                                <rect key="frame" x="852" y="111" width="0.0" height="5"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="5" id="BS8-AB-Dig"/>
                                 </constraints>
@@ -1170,24 +971,24 @@ By email: help@deceitfoldspreechaserake.com</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CgI-N5-if0">
-                                <rect key="frame" x="81" y="81" width="406" height="215"/>
+                                <rect key="frame" x="182.66666666666666" y="111" width="486.66666666666674" height="258"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_txtview" translatesAutoresizingMaskIntoConstraints="NO" id="Osh-Xx-ppU">
-                                        <rect key="frame" x="0.0" y="0.0" width="406" height="215"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="486.66666666666669" height="258"/>
                                     </imageView>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="YjA-Wd-LSO">
-                                        <rect key="frame" x="41" y="50.5" width="324" height="146"/>
+                                        <rect key="frame" x="48.666666666666686" y="60.666666666666643" width="389.33333333333331" height="175.33333333333337"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <prototypes>
                                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="StepCell" rowHeight="80" id="buJ-yb-Tc0" customClass="ChaseRakeStepCell" customModule="DeceitFoldSpree_ChaseRake" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="50" width="324" height="80"/>
+                                                <rect key="frame" x="0.0" y="50" width="389.33333333333331" height="80"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="buJ-yb-Tc0" id="Afa-69-9Bo">
-                                                    <rect key="frame" x="0.0" y="0.0" width="324" height="80"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="389.33333333333331" height="80"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZxP-Q8-ZBu">
-                                                            <rect key="frame" x="16" y="11" width="292" height="28"/>
+                                                            <rect key="frame" x="20" y="11" width="349.33333333333331" height="28"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="28" id="GFD-VD-Cvw"/>
                                                             </constraints>
@@ -1196,7 +997,7 @@ By email: help@deceitfoldspreechaserake.com</string>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CxT-F5-cm6">
-                                                            <rect key="frame" x="0.0" y="39" width="324" height="41"/>
+                                                            <rect key="frame" x="0.0" y="39" width="389.33333333333331" height="41"/>
                                                             <fontDescription key="fontDescription" name="STIXTwoText_SemiBold" family="STIX Two Text" pointSize="16"/>
                                                             <color key="textColor" name="Color 2"/>
                                                             <nil key="highlightedColor"/>
@@ -1222,7 +1023,7 @@ By email: help@deceitfoldspreechaserake.com</string>
                                         </prototypes>
                                     </tableView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Read Carefully" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gh0-PN-LXo">
-                                        <rect key="frame" x="132" y="0.0" width="142" height="49.5"/>
+                                        <rect key="frame" x="172.33333333333334" y="0.0" width="142.00000000000003" height="59.333333333333336"/>
                                         <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="20"/>
                                         <color key="textColor" name="Color 1"/>
                                         <nil key="highlightedColor"/>
@@ -1279,20 +1080,20 @@ By email: help@deceitfoldspreechaserake.com</string>
             <objects>
                 <viewController storyboardIdentifier="CardCascadeViewController" id="ETB-T0-CaT" customClass="CardCascadeViewController" customModule="DeceitFoldSpreeChaseRake" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3yd-Pr-edZ">
-                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_bg" translatesAutoresizingMaskIntoConstraints="NO" id="Ris-ik-twU">
-                                <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                                <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="y7O-no-NJO">
-                                <rect key="frame" x="112" y="84" width="214" height="212"/>
+                                <rect key="frame" x="135.99999999999997" y="108" width="263.33333333333326" height="261"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_five_grid" translatesAutoresizingMaskIntoConstraints="NO" id="LVg-T9-HjR">
-                                        <rect key="frame" x="0.0" y="0.0" width="214" height="212"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="263.33333333333331" height="261"/>
                                     </imageView>
                                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="CnE-wI-wfH">
-                                        <rect key="frame" x="37.5" y="36.5" width="139" height="139"/>
+                                        <rect key="frame" x="46.000000000000014" y="45" width="171.33333333333337" height="171"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="CnE-wI-wfH" secondAttribute="height" id="gcw-1x-fD8"/>
@@ -1305,7 +1106,7 @@ By email: help@deceitfoldspreechaserake.com</string>
                                         </collectionViewFlowLayout>
                                         <cells>
                                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CardCell1" id="kcz-fU-Ye8" customClass="CardCell1" customModule="DeceitFoldSpree_ChaseRake" customModuleProvider="target">
-                                                <rect key="frame" x="5.5" y="0.0" width="128" height="128"/>
+                                                <rect key="frame" x="21.666666666666668" y="0.0" width="128" height="128"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="bPP-WS-YBV">
                                                     <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
@@ -1349,7 +1150,7 @@ By email: help@deceitfoldspreechaserake.com</string>
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6qX-Pr-Qb3">
-                                <rect key="frame" x="36" y="24" width="36" height="36"/>
+                                <rect key="frame" x="36" y="24" width="60" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="6qX-Pr-Qb3" secondAttribute="height" id="eY3-Df-qg1"/>
                                 </constraints>
@@ -1360,13 +1161,13 @@ By email: help@deceitfoldspreechaserake.com</string>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PFn-fS-rAC">
-                                <rect key="frame" x="96" y="12" width="392" height="45"/>
+                                <rect key="frame" x="120" y="12" width="652" height="75"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_title" translatesAutoresizingMaskIntoConstraints="NO" id="5et-66-COR">
-                                        <rect key="frame" x="0.0" y="0.0" width="392" height="45"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="652" height="75"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Card Cascade" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8sn-K4-AcI">
-                                        <rect key="frame" x="131.5" y="4" width="129.5" height="28.5"/>
+                                        <rect key="frame" x="261.33333333333331" y="15.999999999999998" width="129.66666666666669" height="28.333333333333329"/>
                                         <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="20"/>
                                         <color key="textColor" name="Color 1"/>
                                         <nil key="highlightedColor"/>
@@ -1384,19 +1185,19 @@ By email: help@deceitfoldspreechaserake.com</string>
                                 </constraints>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="8x1-hh-7MZ">
-                                <rect key="frame" x="360.5" y="102" width="173" height="194"/>
+                                <rect key="frame" x="513.33333333333337" y="132" width="224.33333333333337" height="237"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TMJ-Pv-U4j">
-                                        <rect key="frame" x="0.0" y="0.0" width="173" height="49"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="224.33333333333334" height="63"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_score" translatesAutoresizingMaskIntoConstraints="NO" id="kq4-iF-8XW">
-                                                <rect key="frame" x="0.0" y="0.0" width="173" height="49"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="224.33333333333334" height="63"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="kq4-iF-8XW" secondAttribute="height" multiplier="3.56221" id="CBT-gF-x9L"/>
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DzG-YG-7Gx">
-                                                <rect key="frame" x="113.5" y="15" width="23.5" height="23.5"/>
+                                                <rect key="frame" x="151" y="23" width="23.666666666666657" height="23.666666666666671"/>
                                                 <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="18"/>
                                                 <color key="textColor" name="Color 1"/>
                                                 <nil key="highlightedColor"/>
@@ -1413,13 +1214,13 @@ By email: help@deceitfoldspreechaserake.com</string>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ok8-xC-2Tm">
-                                        <rect key="frame" x="0.0" y="73" width="173" height="48.5"/>
+                                        <rect key="frame" x="0.0" y="87" width="224.33333333333334" height="63"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="lOZ-Ng-Mg8">
-                                                <rect key="frame" x="26" y="0.0" width="121" height="48.5"/>
+                                                <rect key="frame" x="37.333333333333258" y="0.0" width="150" height="63"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h1g-zw-WtX">
-                                                        <rect key="frame" x="0.0" y="0.0" width="48.5" height="48.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="63" height="63"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="h1g-zw-WtX" secondAttribute="height" id="lFI-hq-GWm"/>
                                                         </constraints>
@@ -1430,7 +1231,7 @@ By email: help@deceitfoldspreechaserake.com</string>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tYc-nV-h2r">
-                                                        <rect key="frame" x="72.5" y="0.0" width="48.5" height="48.5"/>
+                                                        <rect key="frame" x="87" y="0.0" width="63" height="63"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                         <state key="normal" image="ic_howtoPlay"/>
                                                         <connections>
@@ -1448,13 +1249,13 @@ By email: help@deceitfoldspreechaserake.com</string>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p7a-pb-rOg">
-                                        <rect key="frame" x="0.0" y="145.5" width="173" height="48.5"/>
+                                        <rect key="frame" x="0.0" y="174" width="224.33333333333334" height="63"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_draw" translatesAutoresizingMaskIntoConstraints="NO" id="O23-nF-QIS">
-                                                <rect key="frame" x="0.0" y="0.0" width="173" height="48.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="224.33333333333334" height="63"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="85Z-Eb-nNY">
-                                                <rect key="frame" x="113.5" y="15" width="23.5" height="23.5"/>
+                                                <rect key="frame" x="151" y="23" width="23.666666666666657" height="23.666666666666671"/>
                                                 <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="18"/>
                                                 <color key="textColor" name="Color 1"/>
                                                 <nil key="highlightedColor"/>
@@ -1475,7 +1276,7 @@ By email: help@deceitfoldspreechaserake.com</string>
                                 </constraints>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gzl-46-Bqq">
-                                <rect key="frame" x="326" y="81" width="242" height="5"/>
+                                <rect key="frame" x="399.33333333333326" y="111" width="452.66666666666674" height="5"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="5" id="Lfg-NJ-31z"/>
                                 </constraints>
@@ -1525,21 +1326,21 @@ By email: help@deceitfoldspreechaserake.com</string>
             <objects>
                 <viewController useStoryboardIdentifierAsRestorationIdentifier="YES" id="w2G-Cc-cCa" customClass="ChaseRakeWelcomeVC" customModule="DeceitFoldSpreeChaseRake" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EQY-Kj-QXG">
-                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_bg" translatesAutoresizingMaskIntoConstraints="NO" id="wPp-aT-5tm">
-                                <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                                <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_logo" translatesAutoresizingMaskIntoConstraints="NO" id="Xcj-oP-pfC">
-                                <rect key="frame" x="209" y="24" width="150" height="150"/>
+                                <rect key="frame" x="351" y="24" width="150" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="150" id="ipb-Pb-QRn"/>
                                     <constraint firstAttribute="width" constant="150" id="nIZ-kt-z91"/>
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="bLP-Ue-9PX">
-                                <rect key="frame" x="109" y="202" width="350" height="110"/>
+                                <rect key="frame" x="251" y="254" width="350" height="110"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DeceitFoldSpree ChaseRake" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hm2-bE-huJ">
                                         <rect key="frame" x="0.0" y="0.0" width="200" height="110"/>
@@ -1573,6 +1374,9 @@ By email: help@deceitfoldspreechaserake.com</string>
                                     </button>
                                 </subviews>
                             </stackView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="y64-cn-oVl">
+                                <rect key="frame" x="416" y="186.66666666666666" width="20" height="20"/>
+                            </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="q3n-vR-c39"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -1583,12 +1387,15 @@ By email: help@deceitfoldspreechaserake.com</string>
                             <constraint firstItem="Xcj-oP-pfC" firstAttribute="centerX" secondItem="EQY-Kj-QXG" secondAttribute="centerX" id="C0W-qc-Nzd"/>
                             <constraint firstItem="wPp-aT-5tm" firstAttribute="top" secondItem="EQY-Kj-QXG" secondAttribute="top" id="G4X-KQ-hKE"/>
                             <constraint firstAttribute="trailing" secondItem="wPp-aT-5tm" secondAttribute="trailing" id="JcX-c0-HUr"/>
+                            <constraint firstItem="y64-cn-oVl" firstAttribute="centerX" secondItem="EQY-Kj-QXG" secondAttribute="centerX" id="NHG-c4-jv8"/>
                             <constraint firstItem="q3n-vR-c39" firstAttribute="bottom" secondItem="bLP-Ue-9PX" secondAttribute="bottom" constant="8" id="cHY-gr-naK"/>
                             <constraint firstAttribute="bottom" secondItem="wPp-aT-5tm" secondAttribute="bottom" id="nqt-TX-VY8"/>
+                            <constraint firstItem="y64-cn-oVl" firstAttribute="centerY" secondItem="EQY-Kj-QXG" secondAttribute="centerY" id="oX0-po-rbZ"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="8R3-dZ-8zA"/>
                     <connections>
+                        <outlet property="activityView" destination="y64-cn-oVl" id="nBU-2Z-NFr"/>
                         <outlet property="contentView" destination="bLP-Ue-9PX" id="11y-1U-aAl"/>
                     </connections>
                 </viewController>

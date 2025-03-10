@@ -6,8 +6,10 @@
 //
 
 import UIKit
+import AppsFlyerLib
+import AppTrackingTransparency
 
-class SceneDelegate: UIResponder, UIWindowSceneDelegate {
+class SceneDelegate: UIResponder, UIWindowSceneDelegate,AppsFlyerLibDelegate {
 
     var window: UIWindow?
 
@@ -17,6 +19,22 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let _ = (scene as? UIWindowScene) else { return }
+        
+        let appsFlyer = AppsFlyerLib.shared()
+        appsFlyer.appsFlyerDevKey = UIViewController.chaseRakeFlyerDevKey()
+        appsFlyer.appleAppID = "6743078674"
+        appsFlyer.waitForATTUserAuthorization(timeoutInterval: 51)
+        appsFlyer.delegate = self
+        
+    }
+    
+    /// AppsFlyerLibDelegate
+    func onConversionDataSuccess(_ conversionInfo: [AnyHashable : Any]) {
+        print("success appsflyer")
+    }
+    
+    func onConversionDataFail(_ error: Error) {
+        print("error appsflyer")
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
@@ -29,6 +47,15 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func sceneDidBecomeActive(_ scene: UIScene) {
         // Called when the scene has moved from an inactive state to an active state.
         // Use this method to restart any tasks that were paused (or not yet started) when the scene was inactive.
+        
+        AppsFlyerLib.shared().start()
+                
+        DispatchQueue.global().asyncAfter(deadline: .now() + 0.51) {
+            if #available(iOS 14, *) {
+                ATTrackingManager.requestTrackingAuthorization { status in
+                }
+            }
+        }
     }
 
     func sceneWillResignActive(_ scene: UIScene) {

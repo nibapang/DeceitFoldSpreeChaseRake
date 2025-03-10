@@ -6,5 +6,6 @@ target 'DeceitFoldSpreeChaseRake' do
   use_frameworks!
 
   # Pods for DeceitFoldSpreeChaseRake
-
+  pod 'AppsFlyerFramework'
+  pod 'Firebase/Messaging'
 end
